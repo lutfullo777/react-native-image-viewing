@@ -101,6 +101,7 @@ function ImageViewing({
       onRequestClose={onRequestCloseEnhanced}
       supportedOrientations={["portrait"]}
       hardwareAccelerated
+      statusBarTranslucent
     >
       <StatusBarManager presentationStyle={presentationStyle} />
       <View style={[styles.container, { opacity, backgroundColor }]}>
